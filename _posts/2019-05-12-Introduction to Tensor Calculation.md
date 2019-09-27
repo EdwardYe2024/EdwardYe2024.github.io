@@ -1,3 +1,14 @@
+---
+layout:     post
+title:      Introduction to Tensor Calculation
+subtitle:   Introduction
+date:       2019-05-12
+author:     Feng Ye
+header-img: img/post-bg-2015.jpg
+catalog: true
+tags:
+    - Tensor
+---
 # Introduction to Tensor Calculation
 
 In recent years, tensor decomposition has been well applied in the field of data mining, but some calculations on tensor are quite different from the linear algebra we are familiar with. At the same time, tensor calculation is  more abstract than linear algebra, which makes a lot of readers feel that the content of tensors is "difficult". 
@@ -9,7 +20,7 @@ Kronecker product is very common in tensor calculation. It is a bridge between j
 And the Kronecker product of the matrix A and matrix B is:
 ![](2019-05-12-Introduction to Tensor Calculation.assets/equation-1569596579451.svg)
 
-$$
+$$ 
 A\otimes B = \left[ \begin{array}{cccc} a_{11}B & a_{12}B & \cdots & a_{1m_2}B \\ a_{21}B & a_{22}B & \cdots & a_{2m_2}B \\ \vdots & \vdots & \ddots & \vdots \\ a_{m_11}B & a_{m_12}B & \cdots & a_{m_1m_2}B \\ \end{array} \right]
 $$
 

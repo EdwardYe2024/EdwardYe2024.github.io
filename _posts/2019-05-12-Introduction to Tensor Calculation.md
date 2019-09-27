@@ -11,10 +11,10 @@ tags:
 ---
 > “Yeah It's on. ”
 
-## 前言
+# 前言 #
 
 
-## Introduction to Tensor Calculation
+#Introduction to Tensor Calculation# 
 
 In recent years, tensor decomposition has been well applied in the field of data mining, but some calculations on tensor are quite different from the linear algebra we are familiar with. At the same time, tensor calculation is  more abstract than linear algebra, which makes a lot of readers feel that the content of tensors is "difficult". 
 Of course, in terms of linear algebra and multiple linear algebra, the mainstream view will refer to the content of tensor calculation as "multilinear algebra", and consider multiple linear algebra to actually It is an extension of linear algebra. 

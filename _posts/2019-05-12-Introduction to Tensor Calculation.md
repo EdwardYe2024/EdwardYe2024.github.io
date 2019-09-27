@@ -19,7 +19,7 @@ In order to facilitate the understanding of tensor calculation, some mathematica
 
 ### 1 Kronecker product
 
-Kronecker product is very common in tensor calculation. It is a bridge between joint matrix calculation and tensor calculation. In fact, the Kronecker product calculation rule is very simple. Given a matrix of size ![](img/in-post/Introduction.assets/equation.svg) and a matrix of size ![](img/in-post/Introduction.assets/equation-1569595360662.svg), and the Kronecker product of the matrix A and matrix B is:
+Kronecker product is very common in tensor calculation. It is a bridge between joint matrix calculation and tensor calculation. In fact, the Kronecker product calculation rule is very simple. Given a matrix of size ![](/img/in-post/Introduction.assets/equation.svg) and a matrix of size ![](/img/in-post/Introduction.assets/equation-1569595360662.svg), and the Kronecker product of the matrix A and matrix B is:
 <center>
 ![](http://www.zhihu.com/equation?tex=A%5Cotimes+B+%3D+%5Cleft%5B+%5Cbegin%7Barray%7D%7Bcccc%7D+a_%7B11%7DB+%26+a_%7B12%7DB+%26+%5Ccdots+%26+a_%7B1m_2%7DB+%5C%5C+a_%7B21%7DB+%26+a_%7B22%7DB+%26+%5Ccdots+%26+a_%7B2m_2%7DB+%5C%5C+%5Cvdots+%26+%5Cvdots+%26+%5Cddots+%26+%5Cvdots+%5C%5C+a_%7Bm_11%7DB+%26+a_%7Bm_12%7DB+%26+%5Ccdots+%26+a_%7Bm_1m_2%7DB+%5C%5C+%5Cend%7Barray%7D+%5Cright%5D)
 </center>

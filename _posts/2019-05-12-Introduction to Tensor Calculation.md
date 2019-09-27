@@ -16,9 +16,9 @@ Of course, in terms of linear algebra and multiple linear algebra, the mainstrea
 In order to facilitate the understanding of tensor calculation, some mathematical foundations needed for tensor decomposition will be systematically introduced. This part mainly includes common Kronecker product, Khatri-Rao product, outer product of vector, inner product, F-norm, the rules of operation of modal products.
 
 ## 1 Kronecker product
-Kronecker product is very common in tensor calculation. It is a bridge between joint matrix calculation and tensor calculation. In fact, the Kronecker product calculation rule is very simple. Given a matrix of size ![](2019-05-12-Introduction to Tensor Calculation.assets/equation.svg) and a matrix of size ![](2019-05-12-Introduction to Tensor Calculation.assets/equation-1569595360662.svg), the matrix 
+Kronecker product is very common in tensor calculation. It is a bridge between joint matrix calculation and tensor calculation. In fact, the Kronecker product calculation rule is very simple. Given a matrix of size ![]( img/in-post/2019-05-12-Introduction to Tensor Calculation.assets/equation.svg) and a matrix of size ![](img/in-post/2019-05-12-Introduction to Tensor Calculation.assets/equation-1569595360662.svg), the matrix 
 And the Kronecker product of the matrix A and matrix B is:
-![](2019-05-12-Introduction to Tensor Calculation.assets/equation-1569596579451.svg)
+![](img/in-post/2019-05-12-Introduction to Tensor Calculation.assets/equation-1569596579451.svg)
 
 $$ 
 A\otimes B = \left[ \begin{array}{cccc} a_{11}B & a_{12}B & \cdots & a_{1m_2}B \\ a_{21}B & a_{22}B & \cdots & a_{2m_2}B \\ \vdots & \vdots & \ddots & \vdots \\ a_{m_11}B & a_{m_12}B & \cdots & a_{m_1m_2}B \\ \end{array} \right]

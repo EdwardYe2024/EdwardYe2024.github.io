@@ -9,6 +9,11 @@ catalog: true
 tags:
     - Tensor
 ---
+> “Yeah It's on. ”
+
+## 前言
+
+
 ## Introduction to Tensor Calculation
 
 In recent years, tensor decomposition has been well applied in the field of data mining, but some calculations on tensor are quite different from the linear algebra we are familiar with. At the same time, tensor calculation is  more abstract than linear algebra, which makes a lot of readers feel that the content of tensors is "difficult". 

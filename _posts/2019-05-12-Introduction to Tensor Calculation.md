@@ -29,7 +29,7 @@ It is obvious that the size of the Kronecker product of the matrix A and matrix 
 
 for instance：
 <center class="half">
-    <img src="https://www.zhihu.com/equation?tex=A%3D%5Cleft%5B+%5Cbegin%7Barray%7D%7Bcc%7D+1+%26+2+%5C%5C+3+%26+4+%5C%5C+%5Cend%7Barray%7D+%5Cright%5D"/>   <img src="https://www.zhihu.com/equation?tex=B%3D%5Cleft%5B+%5Cbegin%7Barray%7D%7Bccc%7D+5+%26+6+%26+7%5C%5C+8+%26+9+%26+10+%5C%5C+%5Cend%7Barray%7D+%5Cright%5D">
+    <img src="https://www.zhihu.com/equation?tex=A%3D%5Cleft%5B+%5Cbegin%7Barray%7D%7Bcc%7D+1+%26+2+%5C%5C+3+%26+4+%5C%5C+%5Cend%7Barray%7D+%5Cright%5D"/><img src="https://www.zhihu.com/equation?tex=B%3D%5Cleft%5B+%5Cbegin%7Barray%7D%7Bccc%7D+5+%26+6+%26+7%5C%5C+8+%26+9+%26+10+%5C%5C+%5Cend%7Barray%7D+%5Cright%5D">
 </center>
 ![](https://www.zhihu.com/equation?tex=A%3D%5Cleft%5B+%5Cbegin%7Barray%7D%7Bcc%7D+1+%26+2+%5C%5C+3+%26+4+%5C%5C+%5Cend%7Barray%7D+%5Cright%5D)![](https://www.zhihu.com/equation?tex=B%3D%5Cleft%5B+%5Cbegin%7Barray%7D%7Bccc%7D+5+%26+6+%26+7%5C%5C+8+%26+9+%26+10+%5C%5C+%5Cend%7Barray%7D+%5Cright%5D)
 

@@ -27,6 +27,15 @@ Kronecker product is very common in tensor calculation. It is a bridge between j
 
 It is obvious that the size of the Kronecker product of the matrix A and matrix B is ![](https://www.zhihu.com/equation?tex=%5Cleft%28+m_1n_1+%5Cright%29+%5Ctimes+%5Cleft%28+m_2n_2+%5Cright%29+)
 
+for instance：
+![](https://www.zhihu.com/equation?tex=A%3D%5Cleft%5B+%5Cbegin%7Barray%7D%7Bcc%7D+1+%26+2+%5C%5C+3+%26+4+%5C%5C+%5Cend%7Barray%7D+%5Cright%5D)![](https://www.zhihu.com/equation?tex=B%3D%5Cleft%5B+%5Cbegin%7Barray%7D%7Bccc%7D+5+%26+6+%26+7%5C%5C+8+%26+9+%26+10+%5C%5C+%5Cend%7Barray%7D+%5Cright%5D)
+
+![](https://www.zhihu.com/equation?tex=A%5Cotimes+B%3D%5Cleft%5B+%5Cbegin%7Barray%7D%7Bcc%7D+1%5Ctimes+%5Cleft%5B+%5Cbegin%7Barray%7D%7Bccc%7D+5+%26+6+%26+7%5C%5C+8+%26+9+%26+10%5C%5C+%5Cend%7Barray%7D+%5Cright%5D+%26+2%5Ctimes+%5Cleft%5B+%5Cbegin%7Barray%7D%7Bccc%7D+5+%26+6+%26+7%5C%5C+8+%26+9+%26+10%5C%5C+%5Cend%7Barray%7D+%5Cright%5D+%5C%5C+3%5Ctimes+%5Cleft%5B+%5Cbegin%7Barray%7D%7Bccc%7D+5+%26+6+%26+7%5C%5C+8+%26+9+%26+10%5C%5C+%5Cend%7Barray%7D+%5Cright%5D+%26+4%5Ctimes+%5Cleft%5B+%5Cbegin%7Barray%7D%7Bccc%7D+5+%26+6+%26+7%5C%5C+8+%26+9+%26+10%5C%5C+%5Cend%7Barray%7D+%5Cright%5D+%5C%5C+%5Cend%7Barray%7D+%5Cright%5D)
+
+so:
+
+![](https://www.zhihu.com/equation?tex=A%5Cotimes+B%3D%5Cleft%5B+%5Cbegin%7Barray%7D%7Bcccccc%7D+5+%26+6+%26+7+%26+10+%26+12+%26+14+%5C%5C+8+%26+9+%26+10+%26+16+%26+18+%26+20+%5C%5C+15+%26+18+%26+21+%26+20+%26+24+%26+28+%5C%5C+24+%26+27+%26+30+%26+32+%26+36+%26+40+%5C%5C+%5Cend%7Barray%7D+%5Cright%5D)
+
 
 $$
 A\otimes B = \left[ \begin{array}{cccc} a_{11}B & a_{12}B & \cdots & a_{1m_2}B \\ a_{21}B & a_{22}B & \cdots & a_{2m_2}B \\ \vdots & \vdots & \ddots & \vdots \\ a_{m_11}B & a_{m_12}B & \cdots & a_{m_1m_2}B \\ \end{array} \right] 

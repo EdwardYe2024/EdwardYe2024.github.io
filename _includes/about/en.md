@@ -1,21 +1,9 @@
+> 写写代码，做做研究，  
+> 离开世界之前，一切都是过程。
 
+Hey，我是叶锋。现在是东南大学一名研二的学生。我主要的研究方向是多通道数据（张量）的特征提取和分类、异常检测和过程监控。
+多出没于[博客](https://fengye.info)等地带，绝招尚在开发中。
 
-> Yet another man.
-
-
-Hi, I am *@feye* (Feng Ye), a graduated student in [Southeast University](http://www.seu.edu.cn/).
-
-My research interests focus on developing methodologies and algorithms for complex or large-scale systems with multivariate or high-dimensional data, including intelligent sampling and sensing for data collection, data mining and information extraction for system modeling, and on-line monitoring and eﬃcient anomaly detection for streaming data. In particular, my research can be categorized into the following areas: 
-
-
-
-- Statistical modeling and optimization algorithms  
-
-- Machine learning and data mining techniques for large-scale systems  
-
-- On-line learning and real-time monitoring for streaming data analysis
-
-- High-dimensional data analysis for systems monitoring, diagnostics and prognostics, and 
 
 
 

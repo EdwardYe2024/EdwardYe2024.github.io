@@ -61,14 +61,14 @@ kramdown:
 # Disqus settings
 # disqus_username: hux
 
-gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: f50f434bede3a44790a0                            #生成的clientID
-  clientSecret: b7b5d59b1ac1bf929ba4986337a71259fdc58496    #生成的clientSecret
-  repo: EdwardYe2024.github.io    #仓库名称
-  owner: EdwardYe2024    #github用户名
-  admin: EdwardYe2024
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+# gitalk:
+#   enable: true    #是否开启Gitalk评论
+#   clientID: f50f434bede3a44790a0                            #生成的clientID
+#   clientSecret: b7b5d59b1ac1bf929ba4986337a71259fdc58496    #生成的clientSecret
+#   repo: EdwardYe2024.github.io    #仓库名称
+#   owner: EdwardYe2024    #github用户名
+#   admin: EdwardYe2024
+#   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 # Netease settings
 netease_comment: false

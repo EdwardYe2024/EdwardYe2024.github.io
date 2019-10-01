@@ -32,6 +32,9 @@ In other words, unless the sample mean is just right the mathematical expectatio
 The one on the right side of the inequality is the "correct" estimate of the variance! 
 This inequality explains why direct use of ![](https://www.zhihu.com/equation?tex=%5Cfrac%7B1%7D%7Bn%7D+%5Csum_%7Bi%3D1%7D%5En%5CBig%28X_i+-%5Cbar%7BX%7D%5CBig%29%5E2+)can lead to underestimation of the variance.
 Then, under the premise of not knowing the true mathematical expectation of random variables, how to estimate the variance correctly? 
+
 The answer is to replace the denominator n in the above formula with n-1. By using this method to "magnify" the original small estimate, we can get the correct estimate of the difference:
 ![](https://www.zhihu.com/equation?tex=%5Cmathbb%7BE%7D%5CBig%5B%5Cfrac%7B1%7D%7Bn-1%7D+%5Csum_%7Bi%3D1%7D%5En%5CBig%28X_i+-%5Cbar%7BX%7D%5CBig%29%5E2%5CBig%5D%3D%5Cmathbb%7BE%7D%5CBig%5B%5Cfrac%7B1%7D%7Bn%7D+%5Csum_%7Bi%3D1%7D%5En%5CBig%28X_i+-%5Cmu%5CBig%29%5E2+%5CBig%5D%3D%5Csigma%5E2.)
+
+As for why the denominator is n-1 not n-2, or something else, it is best to see the real mathematical proof, because the fundamental purpose of mathematical proof is to tell people "why".
 

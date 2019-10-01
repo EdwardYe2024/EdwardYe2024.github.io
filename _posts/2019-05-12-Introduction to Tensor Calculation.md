@@ -9,7 +9,6 @@ catalog: true
 tags:
     - Tensor
 ---
-> “Yeah It's on. ”
 
 # Introduction to Tensor Calculation #
 

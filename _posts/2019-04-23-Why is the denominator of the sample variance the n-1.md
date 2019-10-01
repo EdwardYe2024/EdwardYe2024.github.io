@@ -38,7 +38,7 @@ The answer is to replace the denominator n in the above formula with n-1. By usi
 
 As for why the denominator is n-1 not n-2, or something else, it is best to see the real mathematical proof, because the fundamental purpose of mathematical proof is to tell people "why".
 
-
+> to be continued
 
 ----------
 ## Update:

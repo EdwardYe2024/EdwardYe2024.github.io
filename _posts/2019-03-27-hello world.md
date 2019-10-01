@@ -11,10 +11,12 @@ tags:
 ---
 
 > “Yeah It's on. ”
+
 # Hey
+
 This is my first blog.
 
-I will share my life and some knowledge.
+I will share my life and some studies.
 
 Hope you can find something interesting here.
 

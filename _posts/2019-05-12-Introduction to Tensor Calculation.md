@@ -19,7 +19,7 @@ In order to facilitate the understanding of tensor calculation, some mathematica
 <br>
 ----------
 
-## 1 . Kronecker product
+## 1 Kronecker product
 
 Kronecker product is very common in tensor calculation. It is a bridge between joint matrix calculation and tensor calculation. In fact, the Kronecker product calculation rule is very simple. Given a matrix of siz![](https://www.zhihu.com/equation?tex=m_1%5Ctimes+m_2)and a matrix of size![](https://www.zhihu.com/equation?tex=n_1%5Ctimes+n_2), and the Kronecker product of the matrix A and matrix B is:
 
@@ -46,4 +46,11 @@ In addition,
 As a result,
 ![](https://www.zhihu.com/equation?tex=A%5ET%5Cotimes+B%5ET%3D%5Cleft%5B+%5Cbegin%7Barray%7D%7Bcccc%7D+5+%26+8+%26+15+%26+24%5C%5C+6+%26+9+%26+18+%26+27%5C%5C+7+%26+10+%26+21+%26+30%5C%5C+10+%26+16+%26+20+%26+32%5C%5C+12+%26+18+%26+24+%26+36%5C%5C+14+%26+20+%26+28+%26+40%5C%5C+%5Cend%7Barray%7D+%5Cright%5D)
 so,![](https://www.zhihu.com/equation?tex=A%5ET%5Cotimes+B%5ET%3D%5Cleft%28+A%5Cotimes+B+%5Cright%29+%5ET)
+
+
+## 2 vector outer product
+
+$$
+\vec a=\left( 1,2 \right) ^{T}
+$$
 

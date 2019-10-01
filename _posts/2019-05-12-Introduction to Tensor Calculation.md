@@ -19,18 +19,15 @@ In order to facilitate the understanding of tensor calculation, some mathematica
 <br>
 ----------
 
-### 1 . Kronecker product
+## 1 . Kronecker product
 
 Kronecker product is very common in tensor calculation. It is a bridge between joint matrix calculation and tensor calculation. In fact, the Kronecker product calculation rule is very simple. Given a matrix of size ![](https://www.zhihu.com/equation?tex=m_1%5Ctimes+m_2)and a matrix of size![](https://www.zhihu.com/equation?tex=n_1%5Ctimes+n_2), and the Kronecker product of the matrix A and matrix B is:
 
 ![](/img/in-post/Introduction.assets/equation-1569596579451.svg)
 
-It is obvious that the size of the Kronecker product of the matrix A and matrix B is ![](https://www.zhihu.com/equation?tex=%5Cleft%28+m_1n_1+%5Cright%29+%5Ctimes+%5Cleft%28+m_2n_2+%5Cright%29+)
+It is obvious that the size of the Kronecker product of the matrix A and matrix B is![](https://www.zhihu.com/equation?tex=%5Cleft%28+m_1n_1+%5Cright%29+%5Ctimes+%5Cleft%28+m_2n_2+%5Cright%29+)
 
 for instance：
-<center class="half">
-    <img src="https://www.zhihu.com/equation?tex=A%3D%5Cleft%5B+%5Cbegin%7Barray%7D%7Bcc%7D+1+%26+2+%5C%5C+3+%26+4+%5C%5C+%5Cend%7Barray%7D+%5Cright%5D"/><img src="https://www.zhihu.com/equation?tex=B%3D%5Cleft%5B+%5Cbegin%7Barray%7D%7Bccc%7D+5+%26+6+%26+7%5C%5C+8+%26+9+%26+10+%5C%5C+%5Cend%7Barray%7D+%5Cright%5D">
-</center>
 ![](https://www.zhihu.com/equation?tex=A%3D%5Cleft%5B+%5Cbegin%7Barray%7D%7Bcc%7D+1+%26+2+%5C%5C+3+%26+4+%5C%5C+%5Cend%7Barray%7D+%5Cright%5D)![](https://www.zhihu.com/equation?tex=B%3D%5Cleft%5B+%5Cbegin%7Barray%7D%7Bccc%7D+5+%26+6+%26+7%5C%5C+8+%26+9+%26+10+%5C%5C+%5Cend%7Barray%7D+%5Cright%5D)
 
 ![](https://www.zhihu.com/equation?tex=A%5Cotimes+B%3D%5Cleft%5B+%5Cbegin%7Barray%7D%7Bcc%7D+1%5Ctimes+%5Cleft%5B+%5Cbegin%7Barray%7D%7Bccc%7D+5+%26+6+%26+7%5C%5C+8+%26+9+%26+10%5C%5C+%5Cend%7Barray%7D+%5Cright%5D+%26+2%5Ctimes+%5Cleft%5B+%5Cbegin%7Barray%7D%7Bccc%7D+5+%26+6+%26+7%5C%5C+8+%26+9+%26+10%5C%5C+%5Cend%7Barray%7D+%5Cright%5D+%5C%5C+3%5Ctimes+%5Cleft%5B+%5Cbegin%7Barray%7D%7Bccc%7D+5+%26+6+%26+7%5C%5C+8+%26+9+%26+10%5C%5C+%5Cend%7Barray%7D+%5Cright%5D+%26+4%5Ctimes+%5Cleft%5B+%5Cbegin%7Barray%7D%7Bccc%7D+5+%26+6+%26+7%5C%5C+8+%26+9+%26+10%5C%5C+%5Cend%7Barray%7D+%5Cright%5D+%5C%5C+%5Cend%7Barray%7D+%5Cright%5D)
@@ -39,5 +36,5 @@ so:
 
 ![](https://www.zhihu.com/equation?tex=A%5Cotimes+B%3D%5Cleft%5B+%5Cbegin%7Barray%7D%7Bcccccc%7D+5+%26+6+%26+7+%26+10+%26+12+%26+14+%5C%5C+8+%26+9+%26+10+%26+16+%26+18+%26+20+%5C%5C+15+%26+18+%26+21+%26+20+%26+24+%26+28+%5C%5C+24+%26+27+%26+30+%26+32+%26+36+%26+40+%5C%5C+%5Cend%7Barray%7D+%5Cright%5D)
 
-However, 
+However, $B\otimes A$
 

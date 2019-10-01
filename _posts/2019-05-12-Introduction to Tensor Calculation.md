@@ -50,11 +50,10 @@ so,![](https://www.zhihu.com/equation?tex=A%5ET%5Cotimes+B%5ET%3D%5Cleft%28+A%5C
 
 ## 2 vector outer product
 
-$$\vec a=\left( 1,2 \right) ^{T}$$
+Given **a**=(1,2)^T, **b**=(3,4)^T, **c**=(5,6,7)^T. The outer product of **a,b,c** can be denoted as ![](https://www.zhihu.com/equation?tex=%7B%5Cmathcal%7BX%7D%7D%3D%5Cvec+a%5Ccirc+%5Cvec+b%5Ccirc+%5Cvec+c)
+That is:
+![](https://www.zhihu.com/equation?tex=%7B%5Cmathcal%7BX%7D%7D%5Cleft%28+%3A%2C%3A%2C1%5Cright%29+%3D%5Cleft%5B+%5Cbegin%7Barray%7D%7Bcc%7D+1%5Ctimes+3%5Ctimes+5+%26+1%5Ctimes+4%5Ctimes+5+%5C%5C+2%5Ctimes+3%5Ctimes+5+%26+2%5Ctimes+4%5Ctimes+5+%5C%5C+%5Cend%7Barray%7D+%5Cright%5D%3D%5Cleft%5B+%5Cbegin%7Barray%7D%7Bcc%7D+15+%26+20+%5C%5C+30+%26+40+%5C%5C+%5Cend%7Barray%7D+%5Cright%5D)![](https://www.zhihu.com/equation?tex=%7B%5Cmathcal%7BX%7D%7D%5Cleft%28+%3A%2C%3A%2C2%5Cright%29+%3D%5Cleft%5B+%5Cbegin%7Barray%7D%7Bcc%7D+1%5Ctimes+3%5Ctimes+6+%26+1%5Ctimes+4%5Ctimes+6+%5C%5C+2%5Ctimes+3%5Ctimes+6+%26+2%5Ctimes+4%5Ctimes+6+%5C%5C+%5Cend%7Barray%7D+%5Cright%5D%3D%5Cleft%5B+%5Cbegin%7Barray%7D%7Bcc%7D+18+%26+24+%5C%5C+36+%26+48+%5C%5C+%5Cend%7Barray%7D+%5Cright%5D)![](https://www.zhihu.com/equation?tex=%7B%5Cmathcal%7BX%7D%7D%5Cleft%28+%3A%2C%3A%2C3%5Cright%29+%3D%5Cleft%5B+%5Cbegin%7Barray%7D%7Bcc%7D+1%5Ctimes+3%5Ctimes+7+%26+1%5Ctimes+4%5Ctimes+7+%5C%5C+2%5Ctimes+3%5Ctimes+7+%26+2%5Ctimes+4%5Ctimes+7+%5C%5C+%5Cend%7Barray%7D+%5Cright%5D%3D%5Cleft%5B+%5Cbegin%7Barray%7D%7Bcc%7D+21+%26+28+%5C%5C+42+%26+56+%5C%5C+%5Cend%7Barray%7D+%5Cright%5D)
+The value of index(j,j,k) is ![](https://www.zhihu.com/equation?tex=x_%7Bijk%7D%3Da_i%5Ccdot+b_j%5Ccdot+c_k%2Ci%3D1%2C2%2Cj%3D1%2C2%2Ck%3D1%2C2%2C3). and in this case, we can obtain the three-order tensor:![](https://pic1.zhimg.com/80/v2-3847e5e46bc6938dc1c1f08fa1b1bd6c_hd.png)
 
 
-
-<script type="text/javascript"  
-　　src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
 

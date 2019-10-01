@@ -17,7 +17,7 @@ In recent years, tensor decomposition has been well applied in the field of data
 Of course, in terms of linear algebra and multiple linear algebra, the mainstream view will refer to the content of tensor calculation as "multilinear algebra", and consider multiple linear algebra to actually It is an extension of linear algebra. 
 In order to facilitate the understanding of tensor calculation, some mathematical foundations needed for tensor decomposition will be systematically introduced. This part mainly includes common Kronecker product, Khatri-Rao product, outer product of vector, inner product, F-norm, the rules of operation of modal products.
 <br>
-----------
+
 
 ## 1 Kronecker product
 
@@ -50,11 +50,11 @@ so,![](https://www.zhihu.com/equation?tex=A%5ET%5Cotimes+B%5ET%3D%5Cleft%28+A%5C
 
 ## 2 vector outer product
 
-$$
-\vec a=\left( 1,2 \right) ^{T}
-$$
+$$\vec a=\left( 1,2 \right) ^{T}$$
 
- {% raw %}
-  $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
- {% endraw %}
+
+
+<script type="text/javascript"  
+　　src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 

@@ -57,5 +57,5 @@ The value of index(j,j,k) is ![](https://www.zhihu.com/equation?tex=x_%7Bijk%7D%
 
 ## 3 Frobenius Norm
 
-Given a tensor ![](/img/in-post/Introduction.assets/Fnorm.PNG)the frobenius norm![](https://www.zhihu.com/equation?tex=%3D%5Csqrt%7B1%5E2%2B2%5E2%2B3%5E2%2B4%5E2%2B5%5E2%2B6%5E2%2B7%5E2%2B8%5E2%7D+%3D%5Csqrt%7B204%7D+)
+Given a tensor ![](/img/in-post/Introduction.assets/Fnorm.svg) the frobenius norm![](https://www.zhihu.com/equation?tex=%3D%5Csqrt%7B1%5E2%2B2%5E2%2B3%5E2%2B4%5E2%2B5%5E2%2B6%5E2%2B7%5E2%2B8%5E2%7D+%3D%5Csqrt%7B204%7D+)
 

@@ -4,7 +4,7 @@ title:      Why is the denominator of the sample variance the n-1?
 subtitle:   
 date:       2019-05-12
 author:     Feng Ye
-header-img: img/post-bg-2015.jpg
+header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
     - Statistic
@@ -77,10 +77,10 @@ The problem is the mean, and the new information which is introduced reduces the
 Or it can be said that with the intervention of the mean, the degrees of freedom of x1 and x2 are reduced. At first, there are two independent numbers. Now there is only one independent, and the other is no longer free.
 
 Similarly, for more sample sizes: 
-If the sample number is 3: x1,x2,x3, then if x1, x2 and the mean are known, we can  calculate x3, Independence, or degree of freedom, decrease from 3 to 2. 
-If the sample number is 4: x1,x2,x3,x4, then if x1, x2, x3 and the mean are known, we can calculate x4, Independence, or degree of freedom, decrease from 4 to 3. 
+If the sample number is 3: x1,x2,x3, then if x1, x2, and the mean are known, we can  calculate x3, Independence, or degree of freedom, decrease from 3 to 2. 
+If the sample number is 4: x1,x2,x3,x4, then if x1, x2, x3, and the mean are known, we can calculate x4, Independence, or degree of freedom, decrease from 4 to 3. 
 ... 
-If the sample number is n: x1,x2,x3...xn, then if x1, x2, xn-1 and the mean are known, we can calculate xn, Independence or degree of freedom, decrease from n to n-1. 
+If the sample number is n: x1,x2,x3...xn, then if x1, x2, xn-1, and the mean are known, we can calculate xn, Independence or degree of freedom, decrease from n to n-1. 
 
 The mean value reduces the sample's independence or degree of freedom by one, resulting in a bias in the sample.
 

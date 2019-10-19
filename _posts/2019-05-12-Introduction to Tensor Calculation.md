@@ -56,7 +56,7 @@ The value of index(j,j,k) is ![](https://www.zhihu.com/equation?tex=x_%7Bijk%7D%
 
 ## 3 Frobenius Norm
 
-Given a tensor ![](/img/in-post/Introduction.assets/Fnorm.svg) the frobenius norm![](/img/in-post/Introduction.assets/Fresult.svg)
+Given a tensor ![](https://www.zhihu.com/equation?tex=%7B%5Cmathcal%7B+X%7D%7D%5Cleft%28+%3A%2C%3A%2C1+%5Cright%29+%3D%5Cleft%5B+%5Cbegin%7Barray%7D%7Bcc%7D+1+%26+2+%5C%5C+3+%26+4+%5C%5C+%5Cend%7Barray%7D+%5Cright%5D)![](https://www.zhihu.com/equation?tex=%7B%5Cmathcal%7B+X%7D%7D%5Cleft%28+%3A%2C%3A%2C2+%5Cright%29+%3D%5Cleft%5B+%5Cbegin%7Barray%7D%7Bcc%7D+5+%26+6+%5C%5C+7+%26+8+%5C%5C+%5Cend%7Barray%7D+%5Cright%5D) the frobenius norm is ![](https://www.zhihu.com/equation?tex=%7C%7C%7B%5Cmathcal%7B+X%7D%7D%7C%7C_F%3D%5Csqrt%7B%5Cleft%3C%7B%5Cmathcal%7B+X%7D%7D%2C%7B%5Cmathcal%7B+X%7D%7D%5Cright%3E%7D+)![](https://www.zhihu.com/equation?tex=%3D%5Csqrt%7B1%5E2%2B2%5E2%2B3%5E2%2B4%5E2%2B5%5E2%2B6%5E2%2B7%5E2%2B8%5E2%7D+%3D%5Csqrt%7B204%7D+)
 
 That is, the square of the tensor F-norm is equal to the sum of the squares of all the elements. In this case, many optimization problems involving matrix decomposition or tensor decomposition often lead to the minimization of sum of the squares of the residual matrix or the residuals, and the objective function is also written in the square of the F-norm of the corresponding residual matrix or residual tensor.
 

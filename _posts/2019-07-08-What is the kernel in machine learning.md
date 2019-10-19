@@ -4,7 +4,7 @@ title:      What is the kernel in machine learning?
 subtitle:  
 date:       2019-07-08
 author:     Feng Ye
-header-img: img/post-bg-os-metro.jpg
+header-img: img/post-bg-os-rwd.jpg
 catalog: true
 tags:
     - Matrix
@@ -16,6 +16,7 @@ Just look at this definition, you still do not understand what the kernel is... 
 Intuitively, to calculate <f(x), f(y)>, we need to calculate f(x) and f(y) separately firstly, and then calculate their inner product. The  definition above also indicates that after x and y are mapped, the dimension is greatly increased, and the cost of calculating the inner product may be very large. And in the high-dimensional space, the inner product is calculated costly, and the inner product is a scalar. That is to say, it pulls our calculations from high dimensional space back to one dimensional space! So we especially want a "simple algorithm" that helps us calculate the desired inner product without in the high-dimensional space. It’s turn to come to our main character-kernel, it can help us do this.
 
 For instance:
+
 x = (x1, x2, x3, x4); 
 
 y = (y1, y2, y3, y4);
@@ -23,7 +24,9 @@ y = (y1, y2, y3, y4);
 f(x) = (x1x1, x1x2, x1x3, x1x4, x2x1, x2x2, x2x3, x2x4, x3x1, x3x2, x3x3, x3x4, x4x1, x4x2, x4x3, x4x4); 
 
 Kernel function is K(x, y) = (<x, y>)^2
+
 Next, let's take a few simple numbers and see what the result is.
+
 x = (1, 2, 3, 4); 
 
 y = (5, 6, 7, 8).

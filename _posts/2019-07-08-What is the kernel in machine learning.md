@@ -17,20 +17,30 @@ Intuitively, to calculate <f(x), f(y)>, we need to calculate f(x) and f(y) separ
 
 For instance:
 x = (x1, x2, x3, x4); 
+
 y = (y1, y2, y3, y4);
+
 f(x) = (x1x1, x1x2, x1x3, x1x4, x2x1, x2x2, x2x3, x2x4, x3x1, x3x2, x3x3, x3x4, x4x1, x4x2, x4x3, x4x4); 
+
 Kernel function is K(x, y) = (<x, y>)^2
 Next, let's take a few simple numbers and see what the result is.
 x = (1, 2, 3, 4); 
+
 y = (5, 6, 7, 8).
+
 Thus, f(x) = ( 1,   2,   3,   4,   2,   4,   6,  8,  3,   6,   9,  12,  4,  8, 12, 16) ;
 f(y) = (25, 30, 35, 40, 30, 36, 42, 48, 35, 42, 49, 56, 40, 48, 56, 64) ;
+
 <f(x), f(y)> = 25+60+105+160+60+144+252+384+105+252+441+672+160+384+672+1024 = **4900**.
 
 Mapping data in four-dimensional space into sixteen-dimensional space, you must feel tired, right?
 But what if we use a kernel function?
+
 K(x, y) = (5+12+21+32)^2 = 70^2 = **4900**.
+
 **That's it!**
 
 So now you can see it, the kernel is actually a "simple algorithm" that saves us from tedious calculations in high-dimensional space. Even, it can solve the problem that infinite dimensional space can't be calculated! Because sometimes f(·) will map n-dimensional space to infinite dimensional space, we often do nothing about it unless we use kernel, especially the RBF kernel:
 ![](/img/in-post/RBF.png)
+
+Before you have a kernel, the typical process of machine learning should be: data --> features --> learning algorithm. But the kernel gives us an alternative. That is, we don't have to define a mapping function from data to feature, but the process can be: kernel(data) --> learning algorithm，and also can be data --> features -->kernel(features) --> learning algorithm. So although we see that the kernel is often applied to the SVM. However, in fact, the learning algorithm that uses the inner product can use the kernel. "The learning algorithm that uses the inner product" is not uncommon. Think about it, the most common linear classifier / regressor has a step is to calculate the feature vectors.

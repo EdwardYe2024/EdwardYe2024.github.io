@@ -160,7 +160,9 @@ Each of these columns is a data record and each row is each dimension of  record
 For the convenience of subsequent processing, we first subtract all the values ​​in each row from the row mean, and the result is to change each row to a mean of 0 (the reason and benefits will be seen later)
 
 Let's look at the above data, the first row has a mean of 2, and the second row has a mean of 3, so after the transformation:![](https://www.zhihu.com/equation?tex=%5Cbegin%7Bpmatrix%7D+-1+%26+-1+%26+0+%26+2+%26+0+%5C%5C+-2+%26+0+%26+0+%26+1+%26+1+%5Cend%7Bpmatrix%7D)
-We can see how the five pieces of data locate in the plane Cartesian coordinate system:![](https://pic3.zhimg.com/e01296f282109b59e18086843866f81a_b.png)
+We can see how the five pieces of data locate in the plane Cartesian coordinate system:
+![](https://pic3.zhimg.com/e01296f282109b59e18086843866f81a_b.png)
+
 Now the question is: If we have to use one dimension to represent this data, and we want to keep the original information as much as possible, how do you choose?
 
 Through the discussion of the base transform in the previous section, we know that this problem is actually to select a direction in the 2D plane, project all the data onto the line in this direction, and use the projection value to represent the original record. 

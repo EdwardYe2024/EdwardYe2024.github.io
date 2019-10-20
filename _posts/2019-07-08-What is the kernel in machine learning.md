@@ -7,7 +7,7 @@ author:     Feng Ye
 header-img: img/post-bg-os-rwd.jpg
 catalog: true
 tags:
-    - Matrix
+    - Statistic
 ---
 Firstly, I give a definition directly: Kernel function is K(x, y) = <f(x), f(y)>, where x and y are n-dimensional input values, f(·) is a mapping from n-dimensional to m-dimensional (usually, m>>n). And <x, y> is the inner product of x and y. Strictly speaking, it should be called the standard inner product of the Euclid space, which is the dot product that many people often say.
 

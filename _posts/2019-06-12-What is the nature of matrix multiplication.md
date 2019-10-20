@@ -7,7 +7,7 @@ author:     Feng Ye
 header-img: img/post-bg-2015.jpg
 catalog: true
 tags:
-    - Matrix
+    - Statistic
 ---
 
 In machine learning algorithms, matrix multiplication is very common. Analysis of the underlying operations of matrix multiplication can sometimes help us better understand the algorithm. How should we understand the nature of matrix multiplication?

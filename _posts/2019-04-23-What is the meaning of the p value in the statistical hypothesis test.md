@@ -41,7 +41,7 @@ According to the above description, the idea of ​​the hypothesis test here i
 
 Throwing coins repeatedly should conform to the binomial distribution, that is:
 
-![](/img/in-post/Pvalue/bn.svg)
+![](/img/in-post/Pvalue/bn.png)
 
 where the number n is times the coin is thrown and miu the probability that the "head" is facing up.
 

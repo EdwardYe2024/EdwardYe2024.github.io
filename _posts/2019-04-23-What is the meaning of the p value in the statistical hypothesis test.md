@@ -47,7 +47,7 @@ where the number n is times the coin is thrown and miu the probability that the 
 
 On the premise that we believe the coin is fair, throwing 10 coins should match the following distribution:
 
-![](/img/in-post/Pvalue/bn.svg)
+![](/img/in-post/Pvalue/bn1.svg)
 
 
 

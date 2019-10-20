@@ -31,7 +31,7 @@ This is the **hypothesis test**:
 - You make the hypothesis: your coin is fair
 - I propose to test your hypothesis: throw ten times and see if the result of the experiment matches your hypothesis.
 
-## P value
+## 2. P value
 In order to complete the hypothesis test, we need to define a concept: P value. 
 Let us explain what is the P value here?
 

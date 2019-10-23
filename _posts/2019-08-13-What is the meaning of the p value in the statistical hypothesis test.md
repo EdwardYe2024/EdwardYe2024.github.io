@@ -57,7 +57,7 @@ The result I got after throwing it ten times was that there were eight 'head':
 
 ![](/img/in-post/Pvalue/bn3.jpg)
 
-At this time, there is a mathematics that defines a concept called p-value:
+At this time, there is a mathematician that defines a concept called p-value:
 
 ![](/img/in-post/Pvalue/bn4.jpg)
 

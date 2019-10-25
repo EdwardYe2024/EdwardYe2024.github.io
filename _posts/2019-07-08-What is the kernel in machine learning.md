@@ -25,7 +25,9 @@ f(x) = (x1x1, x1x2, x1x3, x1x4, x2x1, x2x2, x2x3, x2x4, x3x1, x3x2, x3x3, x3x4, 
 
 Kernel function is K(x, y) = (<x, y>)^2
 
+
 Next, let's take a few simple numbers and see what the result is.
+
 
 x = (1, 2, 3, 4); 
 

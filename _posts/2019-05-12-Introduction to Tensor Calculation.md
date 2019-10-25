@@ -60,3 +60,5 @@ Given a tensor ![](https://www.zhihu.com/equation?tex=%7B%5Cmathcal%7B+X%7D%7D%5
 
 That is, the square of the tensor F-norm is equal to the sum of the squares of all the elements. In this case, many optimization problems involving matrix decomposition or tensor decomposition often lead to the minimization of sum of the squares of the residual matrix or the residuals, and the objective function is also written in the square of the F-norm of the corresponding residual matrix or residual tensor.
 
+- to be continued
+

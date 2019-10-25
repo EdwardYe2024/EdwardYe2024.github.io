@@ -14,7 +14,7 @@ In machine learning algorithms, matrix multiplication is very common. Analysis o
 
 For ![](https://www.zhihu.com/equation?tex=%5Cbm%7BA%7D_%7Bm%5Ctimes+n%7D%5Cbm%7BB%7D_%7Bn%5Ctimes+p%7D%3D%5Cbm%7BC%7D_%7Bm%5Ctimes+p%7D), I can explain it in two ways:
 
-1. The matrix to the left of the multiplication is used as a set of m n-dimensional row vectors, and the matrix on the right is treated as a set of p n-dimensional column vectors. The matrix multiplication is to make the dot product of the left row vector and the right column vector one by one (internal product). The final result is stored in a new matrix of m*p corresponding to the location.
+1. The matrix to the left of the multiplication is used as a set of m n-dimensional row vectors, and the matrix on the right is treated as a set of p n-dimensional column vectors. The matrix multiplication is to make the dot product of the left row vector and the right column vector one by one (inner product). The final result is stored in a new matrix of m*p corresponding to the location.
 2. Multiplication is a collection of column vectors. 
 The matrix on the right is still a set of p n-dimensional column vectors, and the matrix on the left is the base vector of the m-dimensional coordinate system. This operation is to "give a set of bases to the matrix on the right", or the absolute coordinates of the n-dimensional space points in the space represented by a set of m-dimensional basis. The is similar with ![](https://www.zhihu.com/equation?tex=%5Cbm%7Bp%7D%3Dx%5Cbm%7Bi%7D%2By%5Cbm%7Bj%7D%2Bz%5Cbm%7Bk%7D).
 
@@ -35,7 +35,7 @@ The magical difference of matrix multiplication is that it has many kinds of int
 
 For ![](https://www.zhihu.com/equation?tex=%5Cbm%7BT%7D_%7B3%5Ctimes+3%7D%5Cbm%7BP%7D_%7B3%5Ctimes+p%7D)
 
-#### This is the direct operation of the data in 3-dimensional space, and the result is still the 3*P data set. According to the different understanding of *T*, it can be interpreted in three ways:
+This is the direct operation of the data in 3-dimensional space, and the result is still the 3*P data set. According to the different understanding of *T*, it can be interpreted in three ways:
 
 1. T, as a transformation matrix (as a set of row vectors): The space can be represented by three mutually perpendicular unit basis vectors, the coordinate system is unchanged. All points in the space is being "linearly" rotated, translated, and stretched with the three base vectors. 
-2. T, as the basis of the coordinate system (as a set of column vectors), this is to find the absolute coordinates of the data set (absolute coordinates based on the unit basis),  like doing the opeartion of ![](https://www.zhihu.com/equation?tex=%5Cbm%7Bp%7D%3Dx%5Cbm%7Bi%7D%2By%5Cbm%7Bj%7D%2Bz%5Cbm%7Bk%7D) for each column vector in the data, which is well understood.
+2. T, as the basis of the coordinate system (as a set of column vectors), this is to find the absolute coordinates of the data set (absolute coordinates based on the unit basis),  like doing the opeartion of ![](https://www.zhihu.com/equation?tex=%5Cbm%7Bp%7D%3Dx%5Cbm%7Bi%7D%2By%5Cbm%7Bj%7D%2Bz%5Cbm%7Bk%7D) 

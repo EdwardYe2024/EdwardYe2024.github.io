@@ -20,7 +20,7 @@ Then, you want to bet with me, but how can I believe your words. Thus, I propose
 
 You look nervous, and do not let me check, then we put forward a compromise plan, throw a few coins to see if the result is fair.
 
-Throwed a total of twice, all 'head' face up. Although the probability is 0.5*0.5 = 0.25, but it is normal. So we continue to throw the coin.
+Thrown a total of twice, all 'head' face up. Although the probability is 0.5*0.5 = 0.25, but it is normal. So we continue to throw the coin.
 
 I throw it a total of four times, and all of them are 'head' facing up. The probability is 0.5^4 = 0.0625. I feel a bit abnormal, but what if it is luck? 
 Continue to throw.

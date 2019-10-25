@@ -23,6 +23,7 @@ In general, in data mining and machine learning, data is represented as vectors.
 For example, the transactions of an Amazon online store in 2019 can be regarded as a collection of records. The data of each day is a record, and the format is as follows:
 
 (date, pageviews, number of visitors, number of orders, number of transactions, transaction amount)
+
 Where "date" is a record flag rather than a metric, and data mining is mostly concerned with metrics, so if we ignore the date, we get a set of records, each record can be represented as a five-dimensional vector. 
 One of them looks like this:![](https://www.zhihu.com/equation?tex=%28500%2C240%2C25%2C13%2C2312.15%29%5E%5Cmathsf%7BT%7D)
 Note that I used transpose here because it is customary to use a column vector to represent a record (you will see the reason later), which will be followed later in this article. 
@@ -54,7 +55,7 @@ To answer the above questions, we must mathematically and formally discuss the d
 PCA is a dimensionality reduction method that has a strict mathematical foundation and has been widely adopted. 
 Below I will not directly describe the PCA, but by gradually analyzing the problem, let us re-invent the PCA together.
 
-## 3. Vector representation and base transformation
+## 3. Vector representation and basis transformation
 
 Since the data we are facing is abstracted into a set of vectors, it is necessary to study the mathematical properties of some vectors. 
 These mathematical properties will be the theoretical basis for the subsequent export of PCA.
@@ -121,7 +122,7 @@ The figure below shows the new base and the **(3, 2)** diagram of the coordinate
 In addition, it should be noted here that the examples in our example are orthogonal (that is, the inner product is 0, or intuitively perpendicular to each other), but the only requirement that can be a set of bases is linearly independent. 
 However, because orthogonal groups have better properties, the bases generally used are orthogonal.
 
-## 4. Matrix representation of base transformation
+## 4. Matrix representation of basis transformation
 
 We find an easy way to represent the base transform.
 Or take the above example, think about it, convert **(3, 2)** to the coordinates on the new basis, use **(3, 2)** and the first base to do the inner product operation as the first new coordinate component, and then use **(3, 2)** and the second base to do the inner product operation as the component of the second new coordinate.

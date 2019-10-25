@@ -17,12 +17,12 @@ Running may not, but insisting on running really do.
 
 I myself witnessed the changes that have been brought to me by the whole process. This change is all-round.
 
-Three years ago, I made the decision to be a runner. I almost run every day, starting five kilometers a day, because I know that men's failure begins with giving up self-discipline.I keep these running records in KEEP app.
+Three years ago, I made the decision to be a runner. I almost run every day except rainy day, starting five kilometers a day, because I know that men's failure begins with giving up self-discipline.I keep these running records in KEEP app.
 
 ![](/img/in-post/Running/Keep.jpg)
 
 
-My life is still energetic, thanks to the habit of running for years.
+My life is energetic, thanks to the habit of running for years.
 
 In addition, There is no contradiction between running and study and work, and there is no contradiction at all. In fact, everyone should also know that runnning sometimes have a greater role in promoting work and learning. Because of heavy study and work, you definitely need a lot of energy, you must have this to ensure, so if you do not have enough energy, work and study will be discounted. 
 

@@ -2,7 +2,7 @@
 layout:     post
 title:      Why is the denominator of the sample variance the n-1?
 subtitle:   
-date:       2019-05-12
+date:       2019-08-13
 author:     Feng Ye
 header-img: img/post-bg-universe.jpg
 catalog: true

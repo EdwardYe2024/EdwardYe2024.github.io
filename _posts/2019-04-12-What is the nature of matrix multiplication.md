@@ -2,7 +2,7 @@
 layout:     post
 title:      What is the nature of matrix multiplication?
 subtitle:   Introduction
-date:       2019-06-12
+date:       2019-04-12
 author:     Feng Ye
 header-img: img/post-bg-2015.jpg
 catalog: true

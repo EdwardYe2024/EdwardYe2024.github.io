@@ -2,7 +2,7 @@
 layout:     post
 title:      What is the kernel in machine learning?
 subtitle:  
-date:       2019-07-08
+date:       2019-05-08
 author:     Feng Ye
 header-img: img/post-bg-os-rwd.jpg
 catalog: true

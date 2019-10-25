@@ -2,7 +2,7 @@
 layout:     post
 title:      What is the meaning of the p value in the statistical hypothesis test?
 subtitle:   
-date:       2019-08-13
+date:       2019-07-18
 author:     Feng Ye
 header-img: img/404-bg.jpg
 catalog: true

@@ -235,6 +235,6 @@ Here, we find that we have found the matrix **P**:![](https://www.zhihu.com/equa
 So far we have completed the discussion of the mathematical principles of the entire PCA. 
 In the next section, we will give an example of PCA.
 
-- to be continued ：）
+- to be continued :)
 
 

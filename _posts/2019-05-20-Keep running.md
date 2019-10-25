@@ -22,15 +22,13 @@ Three years ago, I made the decision to be a runner. I almost run every day, sta
 ![](/img/in-post/Running/Keep.jpg)
 
 
-In fact, my life is still energetic, thanks to the habit of running for years.
+My life is still energetic, thanks to the habit of running for years.
 
-In addition, There is no contradiction between running and study and work, and there is no contradiction at all. 
-
-In fact, everyone should also know that runnning sometimes have a greater role in promoting work and learning. 
-
-Because everyone knows that heavy study and work, you definitely need a lot of energy, you must have this to ensure, so if you do not have enough energy, work and study will be discounted. 
+In addition, There is no contradiction between running and study and work, and there is no contradiction at all. In fact, everyone should also know that runnning sometimes have a greater role in promoting work and learning. Because of heavy study and work, you definitely need a lot of energy, you must have this to ensure, so if you do not have enough energy, work and study will be discounted. 
 
 Running makes me not sleep late, all bad habits run out, running brings me the confidence that is full of the future.
+
+Keep! Keep! Keep!
 
 ![](/img/in-post/Running/SEU.jpg)
 
